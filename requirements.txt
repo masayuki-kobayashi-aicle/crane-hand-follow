@@ -1,0 +1,5 @@
+# Simulation, tests and the mock server. No robot, camera or lerobot needed.
+# These are the versions the tests were run with (Python 3.12).
+numpy==2.5.5
+mujoco==4.0.1
+rerun-sdk==0.43.2
