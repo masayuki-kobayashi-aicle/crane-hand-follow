@@ -79,7 +79,7 @@ Status as of 2026-11-23.
 | Automated tests | Python 288 and Node 28 tests pass. No robot, camera or LeRobot needed. |
 | Hand detection to mock arm to recording | Checked in Chrome with a test image fed as a fake camera (author's Mac). |
 | Following a real SO-101 | Gripper, shoulder, elbow, base and wrist following were run on the author's arm and the directions checked. IK following (off by default) and the wrist-bend direction are **unverified**. |
-| Simulation (`/sim`, `/sim/camera`) | API and server side checked with curl and tests. The `/sim` start screen was checked by eye in a browser (2026-11-23); playing it through (key directions, grab, drop) and `/sim/camera` were **not re-checked for this release.** |
+| Simulation (`/sim`, `/sim/camera`) | API and server side checked with curl and tests. `/sim` (keyboard) was checked in a browser by the author (2026-11-23). `/sim/camera` (hand tracking) was **not re-checked for this release.** |
 | Skeleton (`/skeleton`) and teaching (`/teach`) pages | **Unverified in a browser.** Solving the joint mapping from teaching data is not implemented. |
 | "Soft mode" | Did not move when pushed by hand on the real arm. **Unresolved.** |
 
