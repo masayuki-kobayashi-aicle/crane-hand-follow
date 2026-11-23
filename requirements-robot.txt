@@ -1,2 +1,2 @@
 # Only for driving a real SO-101 follower. Install on top of requirements.txt.
-lerobot[feetech]==0.6.1
+lerobot[feetech]==0.7.0
